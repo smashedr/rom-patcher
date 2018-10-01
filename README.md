@@ -24,7 +24,7 @@ https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-d
 | Package | Details | Filename |
 | --- | --- | --- |
 | Tarball | Main package archived | rom-patcher.tar.gz |
-| Portable | Single executable, slower loading | rom-patcher |
+| Portable | Single executable, slower loading | rom-patcher-onefile.tar.gz |
 
 If you get an error about "flips-linux" not found on a 64-bit OS you may need to install 32-bit glibc++ libs.
 
