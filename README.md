@@ -34,7 +34,7 @@ This tool allows you to copy download URL's from SMW Central (and some other pla
 
 https://www.smwcentral.net/?p=section&s=smwhacks
 
-![Screen Shot](https://i.imgur.com/v6aBGw4.jpg)
+![Screen Shot](https://i.imgur.com/zSej6xD.jpg)
 
 ## Usage
 
