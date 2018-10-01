@@ -1,6 +1,6 @@
 # ROM Patcher
 
-[![Build Status](https://build.cssnr.com/buildStatus/icon?job=Release%20Dispatcher)](https://build.cssnr.com/job/Release%20Dispatcher)
+[![Build Status](https://build.cssnr.com/buildStatus/icon?job=rom-patcher%20Release%20Builder%20Master)](https://build.cssnr.com/job/rom-patcher%20Release%20Builder%20Master)
 
 This is a Beta product and may contain bugs or lack functionality. Please open issues for any major bugs.
 
