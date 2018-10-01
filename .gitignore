@@ -1,0 +1,13 @@
+.idea/
+*.iml
+__pycache__/
+build/
+dist/
+bin/
+.coverage
+*.zip
+*.7z
+*.ips
+*.bps
+*.sfc
+*.smc

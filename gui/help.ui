@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>446</width>
+    <height>325</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Help - ROM Patcher</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>421</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Close</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>421</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>&lt;p&gt;This is a high level application designed to make patching ROM's easier. It was designed to work with SMW Central but should work with any remote or local file or archive.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        Find a ROM Hack from SMW Central (or anywhere else):&lt;br&gt;
+        &lt;a href=&quot;https://www.smwcentral.net/?p=section&amp;s=smwhacks&quot; target=&quot;_blank&quot;&gt;https://www.smwcentral.net/?p=section&amp;s=smwhacks&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Right click on the Download link and Copy Link Location.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Paste the Download link into the first box.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Locate the location to your source ROM file in the second box.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Choose the output directory for the patched ROM file in the third box.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Click the &quot;Patch ROM&quot; button and wait for it to finish.
+    &lt;/li&gt;
+    &lt;li&gt;
+        The finished rom will show up in the status box. You can click &quot;Open Directory&quot; to open the directory of the finished rom.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    For additional Help see the README.md on GitHub:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        GitHub: &lt;a href=&quot;https://github.com/smashedr/rom-patcher&quot; target=&quot;_blank&quot;&gt;https://github.com/smashedr/rom-patcher&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ROM Patcher Help</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>HelpDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>HelpDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
