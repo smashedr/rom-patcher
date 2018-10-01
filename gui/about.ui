@@ -58,37 +58,11 @@
     <string>About ROM Patcher</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>90</y>
-     <width>446</width>
-     <height>325</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>446</width>
-     <height>325</height>
-    </size>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>Third Party Software</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>120</y>
+     <y>200</y>
      <width>421</width>
      <height>16</height>
     </rect>
@@ -110,7 +84,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>140</y>
+     <y>230</y>
      <width>421</width>
      <height>51</height>
     </rect>
@@ -130,7 +104,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>195</y>
+     <y>170</y>
      <width>421</width>
      <height>21</height>
     </rect>
@@ -150,9 +124,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>220</y>
+     <y>130</y>
      <width>421</width>
-     <height>41</height>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
@@ -169,7 +143,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>40</y>
+     <y>50</y>
      <width>421</width>
      <height>41</height>
     </rect>
@@ -182,6 +156,26 @@
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>421</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Third Party Software</string>
    </property>
   </widget>
  </widget>

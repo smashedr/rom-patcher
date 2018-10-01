@@ -38,19 +38,19 @@ https://www.smwcentral.net/?p=section&s=smwhacks
 
 ## Usage
 
-1. Find a ROM Hack from SMW Central and copy the download link. It also may work with the URL from your address bar but is guaranteed to work with the download link. You may also specify an already downloaded patch file or zip containing an patch file. This goes in the first box.
+1. Find a ROM Hack from SMW Central (or anywhere else) and copy the download link. It also may work with the URL from your address bar but is guaranteed to work with the download link. You may also specify an already downloaded patch file or zip containing an patch file. This goes in the first box.
 
 Example: https://dl.smwcentral.net/17289/GPW1.2.zip
 
-2. This is the location to the source SMW ROM to apply the patch too. This file will not be modified, a new output file will be created in the directory specified below.
+2. This is the location to the source ROM from which the patch file will be used with. This file will not be modified, a new output file will be created in the directory specified below.
 
-Example: C:/Users/Shane/ROMS/Super Mario World (USA).sfc
+Example: C:/ROMS/Super Mario World (USA).sfc
 
-3. The output directory where the new patched ROM file (romhack) will appear.
+3. The output directory where the new patched ROM hack will be generated.
 
 Example: (anywhere you want, maybe the desktop?)
 
-4. Click "Patch ROM". The final rom location will display in the status box and you can click open directory to find it.
+4. Click "Patch ROM". The final rom location will display in the status box then you can click open directory to find it.
 
 ## Building
 
@@ -101,7 +101,7 @@ This software was built using PyQt5 by Riverbank Computing Limited.
 
 More information and source here: https://www.riverbankcomputing.com/software/pyqt/intro
 
-#### PyQt5
+#### Inno Setup
 
 The installer was built using Inno Setup by Jordan Russell’s Software.
 
