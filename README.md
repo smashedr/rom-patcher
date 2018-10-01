@@ -6,25 +6,25 @@ This is a Beta product and may contain bugs or lack functionality. Please open i
 
 ## Download
 
-Pre-build binaries for Windows and Linux. 
+To download a binary head over to the [Releases Page](https://github.com/smashedr/rom-patcher/releases)
 
 #### Windows
 
-| Package | Details | URL |
+| Package | Details | Filename |
 | --- | --- | --- |
-| Installer | **Recommended package** | https://jenkins.imgg.site/rom-patcher-gui/rom-patcher-installer.exe |
-| Zipped | Main package archived | https://jenkins.imgg.site/rom-patcher-gui/rom-patcher.zip |
-| Portable | Single executable, slower loading | https://jenkins.imgg.site/rom-patcher-gui/rom-patcher.exe |
+| Installer | **Recommended package** | rom-patcher-installer.exe |
+| Zipped | Main package archived | rom-patcher.zip |
+| Portable | Single executable, slower loading | rom-patcher.exe |
 
 If you get an error about "MSVCP140.dll" missing you may need the latest Visual C++ Libraries:  
 https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads  
 
 #### Linux
  
-| Package | Details | URL |
+| Package | Details | Filename |
 | --- | --- | --- |
-| Tarball | Main package archived | https://jenkins.imgg.site/rom-patcher-gui/rom-patcher.tar.gz |
-| Portable | Single executable, slower loading | https://jenkins.imgg.site/rom-patcher-gui/rom-patcher |
+| Tarball | Main package archived | rom-patcher.tar.gz |
+| Portable | Single executable, slower loading | rom-patcher |
 
 If you get an error about "flips-linux" not found on a 64-bit OS you may need to install 32-bit glibc++ libs.
 
