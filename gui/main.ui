@@ -7,19 +7,31 @@
     <x>0</x>
     <y>0</y>
     <width>633</width>
-    <height>303</height>
+    <height>315</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>633</width>
-    <height>303</height>
+    <height>315</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>16777215</width>
-    <height>16777215</height>
+    <width>633</width>
+    <height>315</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>4</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -291,7 +303,7 @@
      <x>0</x>
      <y>0</y>
      <width>633</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
