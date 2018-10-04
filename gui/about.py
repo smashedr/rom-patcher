@@ -11,11 +11,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_AboutDialog(object):
     def setupUi(self, AboutDialog):
         AboutDialog.setObjectName("AboutDialog")
-        AboutDialog.resize(600, 320)
-        AboutDialog.setMinimumSize(QtCore.QSize(600, 320))
-        AboutDialog.setMaximumSize(QtCore.QSize(600, 320))
+        AboutDialog.resize(510, 320)
+        AboutDialog.setMinimumSize(QtCore.QSize(510, 320))
+        AboutDialog.setMaximumSize(QtCore.QSize(510, 320))
         self.buttonBox = QtWidgets.QDialogButtonBox(AboutDialog)
-        self.buttonBox.setGeometry(QtCore.QRect(160, 290, 421, 21))
+        self.buttonBox.setGeometry(QtCore.QRect(80, 290, 421, 21))
         self.buttonBox.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
         self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Close)
