@@ -1,8 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Shane\IdeaProjects\rom-patcher-gui\gui\about.ui'
+# Form implementation generated from reading ui file 'C:\Users\raluaces\rom-patcher\gui\about.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
