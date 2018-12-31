@@ -192,7 +192,7 @@ class RomPatcher(object):
                                'Remote server response code: '
                                '{}'.format(r.status_code))
                         return self._fail(msg)
-                    soup = BeautifulSoup(r.content.decode(), 'html.parser')
+                    soup = BeautifulSoup(r.content.decode('iso-8859-1'), 'html.parser')
                     download = soup.find(string='Download')
                     rom_uri = download.findPrevious()['href']
                     if not rom_uri:
