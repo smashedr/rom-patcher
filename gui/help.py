@@ -1,8 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Shane\IdeaProjects\rom-patcher-gui\gui\help.ui'
+# Form implementation generated from reading ui file 'C:\Users\raluaces\rom-patcher\gui\help.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -11,16 +11,19 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_HelpDialog(object):
     def setupUi(self, HelpDialog):
         HelpDialog.setObjectName("HelpDialog")
-        HelpDialog.resize(446, 325)
-        HelpDialog.setMinimumSize(QtCore.QSize(446, 325))
+        HelpDialog.resize(480, 350)
+        HelpDialog.setMinimumSize(QtCore.QSize(480, 350))
+        HelpDialog.setMaximumSize(QtCore.QSize(480, 350))
         self.buttonBox = QtWidgets.QDialogButtonBox(HelpDialog)
-        self.buttonBox.setGeometry(QtCore.QRect(10, 290, 421, 21))
+        self.buttonBox.setGeometry(QtCore.QRect(50, 310, 421, 21))
         self.buttonBox.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
         self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Close)
         self.buttonBox.setObjectName("buttonBox")
         self.label = QtWidgets.QLabel(HelpDialog)
-        self.label.setGeometry(QtCore.QRect(10, 50, 421, 231))
+        self.label.setGeometry(QtCore.QRect(10, 40, 451, 350))
+        self.label.setMinimumSize(QtCore.QSize(0, 350))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 260))
         self.label.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.label.setWordWrap(True)

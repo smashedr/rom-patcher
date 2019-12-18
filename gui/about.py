@@ -1,8 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Shane\IdeaProjects\rom-patcher-gui\gui\about.ui'
+# Form implementation generated from reading ui file 'C:\Users\raluaces\rom-patcher\gui\about.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -11,10 +11,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_AboutDialog(object):
     def setupUi(self, AboutDialog):
         AboutDialog.setObjectName("AboutDialog")
-        AboutDialog.resize(446, 325)
-        AboutDialog.setMinimumSize(QtCore.QSize(446, 325))
+        AboutDialog.resize(510, 320)
+        AboutDialog.setMinimumSize(QtCore.QSize(510, 320))
+        AboutDialog.setMaximumSize(QtCore.QSize(510, 320))
         self.buttonBox = QtWidgets.QDialogButtonBox(AboutDialog)
-        self.buttonBox.setGeometry(QtCore.QRect(10, 290, 421, 21))
+        self.buttonBox.setGeometry(QtCore.QRect(80, 290, 421, 21))
         self.buttonBox.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
         self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Close)
@@ -34,11 +35,11 @@ class Ui_AboutDialog(object):
         self.label_4.setWordWrap(True)
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(AboutDialog)
-        self.label_5.setGeometry(QtCore.QRect(10, 230, 421, 51))
+        self.label_5.setGeometry(QtCore.QRect(10, 230, 751, 61))
         self.label_5.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(AboutDialog)
-        self.label_6.setGeometry(QtCore.QRect(10, 170, 421, 21))
+        self.label_6.setGeometry(QtCore.QRect(10, 180, 421, 21))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(True)
@@ -46,11 +47,11 @@ class Ui_AboutDialog(object):
         self.label_6.setFont(font)
         self.label_6.setObjectName("label_6")
         self.label_8 = QtWidgets.QLabel(AboutDialog)
-        self.label_8.setGeometry(QtCore.QRect(10, 130, 421, 61))
+        self.label_8.setGeometry(QtCore.QRect(20, 120, 421, 61))
         self.label_8.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.label_8.setObjectName("label_8")
         self.label_9 = QtWidgets.QLabel(AboutDialog)
-        self.label_9.setGeometry(QtCore.QRect(10, 50, 421, 41))
+        self.label_9.setGeometry(QtCore.QRect(10, 40, 721, 61))
         self.label_9.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.label_9.setObjectName("label_9")
         self.label_7 = QtWidgets.QLabel(AboutDialog)

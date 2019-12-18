@@ -1,8 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Shane\IdeaProjects\rom-patcher-gui\gui\main.ui'
+# Form implementation generated from reading ui file 'C:\Users\raluaces\rom-patcher\gui\main.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -11,9 +11,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(633, 303)
-        MainWindow.setMinimumSize(QtCore.QSize(633, 303))
-        MainWindow.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        MainWindow.resize(633, 315)
+        MainWindow.setMinimumSize(QtCore.QSize(633, 315))
+        MainWindow.setMaximumSize(QtCore.QSize(633, 315))
+        MainWindow.setSizeIncrement(QtCore.QSize(0, 4))
+        MainWindow.setBaseSize(QtCore.QSize(0, 0))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.source_rom = QtWidgets.QLineEdit(self.centralwidget)
@@ -108,7 +110,7 @@ class Ui_MainWindow(object):
         self.exit_app.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 633, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 633, 26))
         self.menubar.setObjectName("menubar")
         self.menuFile = QtWidgets.QMenu(self.menubar)
         self.menuFile.setObjectName("menuFile")
